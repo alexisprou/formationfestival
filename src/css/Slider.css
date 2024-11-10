@@ -1,0 +1,12 @@
+.slick-slide img {
+    display: block;
+    flex: 1 0;
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.social-media-container {
+  text-align: center;
+  margin: 0;
+}

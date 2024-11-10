@@ -1,0 +1,27 @@
+.container-faq {
+    margin: 20px;
+    border: solid;
+}
+
+.container-faq2 {
+    margin: 20px;
+    border: solid;
+    border: solid #a6a6a6;;;
+}
+
+.container-faq2 h2 {
+    background-color: #a6a6a6;;;
+}
+
+
+
+h1 {
+    display: block;
+    font-size: 20px;
+    text-align: -webkit-center;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,30 @@
+.social-media-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 35px;
+    margin: 30px;
+  }
+  
+  .social-media-links a img {
+    width: 50px; 
+    height: 50px;
+  }
+
+  .social-media-links a {
+    color: black;
+  }
+
+h2.titrereseaux  {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-size: 1em;
+}

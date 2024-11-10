@@ -1,0 +1,30 @@
+p {
+    text-align: center;
+}
+
+.add_to_cart {
+    text-decoration: none;
+    color: black;
+    pointer-events: none;
+}
+
+ul.billeterie {
+    font-size: 1.1em;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.groupe-billeterie {
+    margin: 50px;
+    font-size: 1.1em;
+    
+}
+
+a:visited .billeterie {
+    color: black;
+}
+
+h4.wp-block-heading {
+    text-align: center;
+    font-size: 1.3em;
+}

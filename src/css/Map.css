@@ -1,0 +1,80 @@
+.red-marker-icon {
+    width: 20px;
+    height: 20px; 
+    background-color: red; 
+    border-radius: 50%;
+  }
+
+
+  .filter-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+  touch-action: none;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  outline-style: none;
+}
+
+label {
+  font-size: larger;
+  border: solid 1px;
+}
+
+.title-filter {
+  font-size: larger;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 5vh;
+  margin: 0;
+  border-bottom: solid 1px;
+}
+
+.filter-marker {
+  font-size: medium;
+  z-index: 900;
+  position: absolute;
+  border: solid 1 white;
+}
+
+.category-list {
+  font-size: x-small;
+  display: flex;
+  place-content: space-around;
+  text-align: -webkit-center;
+}
+
+.leaflet-popup-content {
+  margin: 13px 24px 13px 20px;
+  line-height: 1.3;
+  font-size: 13px;
+  font-size: 1.08333em;
+  min-height: 1px;
+  text-align: center;
+  font-size: medium;
+}
+
+.leaflet-top.leaflet-left {
+  display: none;
+}
+
+.map-maximized {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.leaflet-container.leaflet-touch.leaflet-retina.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+  width: 100% !important;
+  position: relative !important;
+  height: 100% !important;  
+}
+

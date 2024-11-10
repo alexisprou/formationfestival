@@ -1,0 +1,10 @@
+p.paragraphe-entree a {
+   text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+p.paragraphe-entree a:visited {
+    text-decoration: none;
+ }

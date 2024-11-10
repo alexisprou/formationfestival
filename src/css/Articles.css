@@ -1,0 +1,69 @@
+figure {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+ul.article-list {
+  list-style: none;
+}
+
+.article-item {
+  width: 48%;
+  margin-bottom: 20px;
+  text-align-last: center;
+}
+
+.filtre-groupe {
+  justify-content: space-between;
+  display: flex;
+  margin: 5px;
+  font-size: small;
+}
+
+.filtre-groupe h3{
+  text-align: center;
+}
+
+form#filtre-jours {
+  flex-direction: column;
+  display: flex;
+}
+
+form#filtre-types {
+  flex-direction: column;
+  display: flex;
+}
+
+form#filtre-horraires {
+  flex-direction: column;
+  display: flex;
+}
+
+form#filtre-lieux {
+  flex-direction: column;
+  display: flex;
+}
+
+.article-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-list a:visited {
+  color: black;
+}
+
+.article-list h3 {
+  margin-bottom: 10px;
+}

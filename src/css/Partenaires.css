@@ -1,0 +1,10 @@
+figure.wp-block-media-text__media {
+    position: relative;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+
+
